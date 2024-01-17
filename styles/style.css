@@ -18,3 +18,8 @@ nav{
     height: 80px;
     width: 100%;
 }
+
+.logo{
+    width: 50px;
+    height: auto;
+}
