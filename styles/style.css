@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root{
+    --black: #000000;
+    --white: #ffffff;
+}
+
+body{
+    background-color: var(--white);
+}
+
+nav{
+    background-color: var(--black);
+    height: 80px;
+    width: 100%;
+}
