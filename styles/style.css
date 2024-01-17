@@ -5,7 +5,8 @@
 }
 
 :root{
-    --brown: #665248;
+    --brown: #513A2F;
+    --brown1: #665248;
     --cream: #f3ece1;
     --goldish: #fae59f;
 }
@@ -15,7 +16,7 @@ body{
 }
 
 nav{
-    background-color: var(--goldish);
+    background-color: var(--brown);
     height: 100px;
     width: 100%;
 }
