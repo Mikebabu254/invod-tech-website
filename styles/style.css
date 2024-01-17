@@ -15,11 +15,12 @@ body{
 
 nav{
     background-color: var(--black);
-    height: 80px;
+    height: 90px;
     width: 100%;
 }
 
 .logo{
-    width: 50px;
+    width: 70px;
     height: auto;
+    padding: 5px;
 }
