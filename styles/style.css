@@ -40,7 +40,7 @@ header{
 }
 
 .fa-solid{
-    color: red;
+    color: var(--goldish);
     float: right;
     
 }
@@ -61,25 +61,16 @@ header{
     margin-top: 15px;
     margin-right: 15px;
     float: right;
-    color: green;
+    color: black;
 }
 
-.number:hover{
-    color: black;
-    transition: var(--trans);
-}
 
 .mail{
     cursor: pointer;
     margin-top: 15px;
     padding-right: 50px;
     float: right;
-    color: green;
-}
-
-.mail:hover{
     color: black;
-    transition: var(--trans);
 }
 
 nav{
