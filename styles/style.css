@@ -8,21 +8,57 @@
     --brown: #513A2F;
     --brown1: #665248;
     --cream: #f3ece1;
+    --white: #ffffff;
     --goldish: #fae59f;
+    --trans: 2s;
 }
 
 body{
+    background-color: var(--cream);
+}
+
+header{
     background-color: var(--white);
+    height: 50px;
+    
+}
+
+.fab{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: red;
+}
+
+.fab:hover{
+    color: black;
+    transition: var(--trans);
+}
+
+.fa-brands{
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: blue;
+}
+
+.fa-brands:hover{
+    color: black;
+    transition: var(--trans);
 }
 
 nav{
-    background-color: var(--brown);
+    margin-top: 2px;
+    background-color: var(--white);
     height: 100px;
     width: 100%;
 }
 
 .logo{
     width: 100px;
-    height: auto;
+    height: 90px;
     padding: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
 }
