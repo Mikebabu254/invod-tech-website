@@ -25,45 +25,56 @@ header{
 
 #social_icon{
     font-size: 30px;
-    padding: 10px;
+    margin: 10px;
     cursor: pointer;
+    
 }
 
-.fab:hover{
-    color: black;
-    transition: var(--trans);
+.fab{
+    color: red;
+    padding-left: 50px;
 }
 
 .fa-brands{
-    font-size: 30px;
-    padding: 10px;
-    cursor: pointer;
     color: blue;
 }
 
-.fa-brands:hover{
-    color: black;
-    transition: var(--trans);
-}
-
 .fa-solid{
-    font-size: 30px;
-    padding: 10px;
-    cursor: pointer;
     color: red;
     float: right;
+    
 }
 
-.fa-solid:hover{
+.fa-brands.fa-square-whatsapp{
+    color: green;
+    float: right;
+    font-size: 5px;
+}
+
+#social_icon:hover{
     color: black;
     transition: var(--trans);
 }
 
-.fa-brands{
-    font-size: 30px;
-    padding: 10px;
+.number{
     cursor: pointer;
-    color: red;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    color: green;
+}
+
+.mail{
+    cursor: pointer;
+    margin-top: 15px;
+    padding-right: 50px;
+    float: right;
+    color: green;
+}
+
+.number:hover{
+    color: black;
+    transition: var(--trans);
 }
 
 nav{
