@@ -23,12 +23,10 @@ header{
     
 }
 
-.fab{
+#social_icon{
     font-size: 30px;
     padding: 10px;
-    margin-left: 50px;
     cursor: pointer;
-    color: red;
 }
 
 .fab:hover{
@@ -46,6 +44,26 @@ header{
 .fa-brands:hover{
     color: black;
     transition: var(--trans);
+}
+
+.fa-solid{
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: red;
+    float: right;
+}
+
+.fa-solid:hover{
+    color: black;
+    transition: var(--trans);
+}
+
+.fa-brands{
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: red;
 }
 
 nav{
