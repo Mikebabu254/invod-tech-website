@@ -98,6 +98,20 @@ nav{
 }
 
 @media (max-width:450px) {
+    .fa-solid{
+        color: red;
+        float: right;
+        margin: 00px 00px 00px 00px;
+        position: absolute;
+    }
+
+    .fa-brands.fa-square-whatsapp{
+        color: green;
+        font-size: 5px;
+        
+        position: absolute;
+    }
+
     .mail{
         visibility: hidden;
     }
