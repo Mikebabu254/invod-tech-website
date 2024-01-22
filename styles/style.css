@@ -91,10 +91,22 @@ nav{
 @media (max-width:450px) {
 
     .mail{
-        visibility: hidden;
+        display: none;
     }
 
     .number{
-        visibility: hidden;
+        display: none;
     }
+
+    header{
+        display: flex;
+    }
+
+    .fab{
+        color: red;
+        padding-left: 100px;
+    }
+
 }
+
+
