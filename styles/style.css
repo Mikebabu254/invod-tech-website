@@ -92,6 +92,16 @@ nav{
     padding: 10px;
 }
 
+@media (max-width: 655px) {
+    .mail{
+        display: none;
+    }
+
+    .number{
+        display: none;
+    }
+}
+
 @media (max-width:450px) {
 
     .mail{
