@@ -88,6 +88,10 @@ nav{
     border-radius: 10px;
 }
 
+.body_content{
+    padding: 10px;
+}
+
 @media (max-width:450px) {
 
     .mail{
