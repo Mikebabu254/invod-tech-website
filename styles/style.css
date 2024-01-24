@@ -88,8 +88,23 @@ nav{
     border-radius: 10px;
 }
 
-.body_content{
+.service{
     padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.web_designing{
+    background-color: var(--brown1);
+    height: 300px;
+    width: 300px;
+}
+
+.team{
+    background-color: var(--brown1);
+    height: 300px;
+    width: 300px;
 }
 
 @media (max-width: 655px) {
