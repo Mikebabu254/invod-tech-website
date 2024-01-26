@@ -112,9 +112,11 @@ nav ul li a{
     
 }
 
-.mike{
+
+
+.members{
     background-color: var(--brown1);
-    height: 300px;
+    height: 350px;
     width: 300px;
     display: flex;
     justify-content: flex-start;
@@ -145,10 +147,9 @@ nav ul li a{
     }
 
     .container{
-        width: 100%;
+        width: 90%;
         margin: 0px;
         display: flex;
-        background-color: aqua;
         gap: 10px;
         flex-direction: column;
         justify-content: center;
