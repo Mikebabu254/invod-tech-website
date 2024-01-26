@@ -81,7 +81,7 @@ nav{
     background-color: var(--white);
     height: 100px;
     width: 100%;
-    transition: top 0.3s;
+    transition: top 3s;
 }
 
 nav ul{
