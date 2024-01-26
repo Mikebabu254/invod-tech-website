@@ -114,8 +114,6 @@ nav ul li a{
     
 }
 
-
-
 .members{
     background-color: var(--cream);
     height: 350px;
@@ -139,9 +137,8 @@ nav ul li a{
 }
 
 .profile{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 250px;
+    padding: 10px;
+    width: auto;
     height: 250px;
 }
 
