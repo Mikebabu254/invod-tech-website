@@ -124,6 +124,18 @@ nav ul li a{
     flex-direction: column;
 }
 
+.member_name{
+    width: 200px;
+    text-align: center;
+}
+
+.role{
+    margin-top: 10px;
+    
+    width: 250px;
+    text-align: center;
+}
+
 .profile{
     padding-top: 10px;
     padding-bottom: 10px;
