@@ -132,6 +132,13 @@ nav ul li a{
     .number{
         display: none;
     }
+
+    .container{
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:450px) {
@@ -157,12 +164,7 @@ nav ul li a{
         padding-left: 0px;
     }
 
-    .container{
-        padding: 10px;
-        display: flex;
-        gap: 10px;
-        flex-direction: column;
-    }
+    
 
 }
 
