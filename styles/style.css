@@ -22,7 +22,7 @@ body{
 header{
     background-color: var(--white);
     height: 50px;
-    
+    width: 100%;
 }
 
 #social_icon{
@@ -134,9 +134,10 @@ nav ul li a{
     }
 
     .container{
-        width: 99%;
-        padding: 10px;
+        width: 100%;
+        margin: 0px;
         display: flex;
+        background-color: aqua;
         gap: 10px;
         flex-direction: column;
         justify-content: center;
