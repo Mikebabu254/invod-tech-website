@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: var(--cream);
+    background-color: var(--goldish);
 }
 
 header{
@@ -115,7 +115,7 @@ nav ul li a{
 
 
 .members{
-    background-color: var(--brown1);
+    background-color: var(--cream);
     height: 350px;
     width: 300px;
     display: flex;
