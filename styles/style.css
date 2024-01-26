@@ -134,7 +134,7 @@ nav ul li a{
     }
 
     .container{
-        width: 100%;
+        width: 99%;
         padding: 10px;
         display: flex;
         gap: 10px;
