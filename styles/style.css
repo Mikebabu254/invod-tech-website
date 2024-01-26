@@ -109,13 +109,24 @@ nav ul li a{
     padding: 10px;
     display: flex;
     gap: 10px;
-    flex-direction: row;
+    
 }
 
-.web_designing{
+.mike{
     background-color: var(--brown1);
     height: 300px;
     width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    height: 250px;
 }
 
 .team{
