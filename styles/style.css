@@ -110,6 +110,7 @@ nav ul li a{
 }
 
 .container{
+    background-color: var(--brown1);
     margin-top: 120px;
     padding: 10px;
     display: flex;
@@ -165,7 +166,6 @@ nav ul li a{
 
 .role{
     margin-top: 10px;
-    
     width: 250px;
     text-align: center;
 }
@@ -180,6 +180,37 @@ nav ul li a{
     background-color: var(--brown1);
     height: 300px;
     width: 300px;
+}
+
+.about_us{
+    background-color: var(--brown);
+    height: auto;
+    width: auto;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    background-color: var(--cream);
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.5s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 @media (max-width: 655px) {
