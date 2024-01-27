@@ -12,6 +12,7 @@
     --white: #ffffff;
     --goldish: #fae59f;
     --black: #000000;
+    --maroon: #8a1f2d;
     --trans: 2s;
 }
 
@@ -124,6 +125,19 @@ nav ul li a{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    transition: transform 0.5s ease;
+
+}
+
+.members:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: var(--maroon);
+}
+
+.members:hover img {
+    filter: grayscale(100%); /* Convert the image to black and white */
+    transition: filter 0.5s ease; /* Adding a smooth transition for the grayscale effect */
 }
 
 .member_name{
