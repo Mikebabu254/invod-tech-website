@@ -149,6 +149,15 @@ nav ul li a{
     filter: grayscale(0%); /* Remove the grayscale effect on hover */
 }
 
+.members:hover .member_name{
+    color: var(--goldish);
+    transition: filter 0.5s ease;
+}
+
+.members:hover .role{
+    color: var(--cream);
+    transition: filter 0.5s ease;
+}
 .member_name{
     width: 200px;
     text-align: center;
