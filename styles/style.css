@@ -158,6 +158,7 @@ nav ul li a{
     justify-content: center;
 }
 
+
 .members{
     background-color: var(--cream);
     height: 350px;
@@ -169,7 +170,6 @@ nav ul li a{
     transition: transform 0.5s ease;
     position: relative;
     z-index: 1;
-
 }
 
 .members:hover{
