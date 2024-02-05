@@ -161,7 +161,7 @@ nav ul li a{
 
 .members{
     background-color: var(--cream);
-    height: 350px;
+    height: 400px;
     width: 300px;
     display: flex;
     justify-content: flex-start;
@@ -170,6 +170,13 @@ nav ul li a{
     transition: transform 0.5s ease;
     position: relative;
     z-index: 1;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
 }
 
 .members:hover{
