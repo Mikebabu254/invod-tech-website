@@ -176,7 +176,7 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 50px;
+    padding-right: 40px;
 }
 
 .members:hover{
