@@ -160,6 +160,72 @@ nav ul li a{
 }
 
 
+.container3{
+    background-color: var(--maroon);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.services{
+    background-color: var(--cream);
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.5s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: var(--brown);
+    z-index: 2;
+
+}
+
+.services img {
+    filter: grayscale(100%); /* Convert the image to black and white */
+    transition: filter 0.5s ease; /* Adding a smooth transition for the grayscale effect */
+}
+
+.services:hover img {
+    filter: grayscale(0%); /* Remove the grayscale effect on hover */
+}
+
+.services:hover .service_name{
+    color: var(--goldish);
+    transition: filter 0.5s ease;
+}
+
+.services:hover .service_description{
+    color: var(--cream);
+    transition: filter 0.5s ease;
+}
+.service_name{
+    width: 200px;
+    text-align: center;
+}
+
+.service_description{
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+}
+
 
 .container{
     background-color: var(--brown1);
