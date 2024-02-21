@@ -14,6 +14,7 @@
     --black: #000000;
     --maroon: #8a1f2d;
     --trans: 2s;
+    
 }
 
 body{
@@ -342,7 +343,68 @@ nav ul li a{
     font-size: 30px;
     font-weight: bold;
 }
+.contact-form {
+    width: 100%;
+    max-width: 800px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    flex-wrap: wrap;
+}
 
+
+.image-container,
+.form-container {
+    width: 100%; /* Set both containers to 100% width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    padding: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: var(--maroon);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 @media (max-width: 655px) {
     .mail{
         display: none;
@@ -387,9 +449,77 @@ nav ul li a{
         flex-wrap: wrap;
     }
 }
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns layout */
+    gap: 20px; /* Gap between columns */
+    align-items: center;
+    height: 100vh;
+}
 
-@media (max-width:450px) {
+.image-container {
+    padding: 20px;
+}
 
+.image-container img {
+    max-height: 100%;
+    width: auto;
+    border-radius: 8px;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width:600px) {
+    .image-container{
+        display: none;
+    }
+    .form-container {
+        width: 100%; /* Set both containers to 100% width on smaller screens */
+        padding: 10px; /* Adjust padding on smaller screens */
+    }
+
+    form {
+        max-width: 1000px; /* Set the form to full width on smaller screens */
+    }
     .mail{
         display: none;
     }
