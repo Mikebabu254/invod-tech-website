@@ -232,7 +232,7 @@ nav ul li a{
     background-color: var(--brown1);
     padding: 10px;
     display: flex;
-    gap: 10px;
+    gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -240,7 +240,7 @@ nav ul li a{
 
 .members{
     background-color: var(--cream);
-    height: 400px;
+    height: 450px;
     width: 300px;
     display: flex;
     justify-content: center;
@@ -290,6 +290,7 @@ nav ul li a{
 }
 
 .members button{
+    margin-top: 10px;
     background-color:aqua;
     color: var(--black);
     width: 200px;
