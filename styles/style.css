@@ -9,14 +9,28 @@
 :root{
     --brown: #513A2F;
     --brown1: #665248;
-    --cream: #f3ece1;
+    --cream: #ffe8a2;
     --white: #ffffff;
     --goldish: #fae59f;
     --black: #000000;
-    --maroon: #8a1f2d;
+    --maroon: #871828;
     --trans: 2s;
     
 }
+html{
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: var(--brown);
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--cream);
+}
+
 
 body{
     background-color: var(--goldish);
@@ -60,69 +74,7 @@ header{
       transform: translateY(50px);
     }
   }
-  
-  /* social media icons */
-#social_icon{
-    font-size: 30px;
-    margin: 10px;
-    cursor: pointer;
-    
-}
 
-#socialIcon{
-    font-size: 30px;
-    margin: 5px;
-    cursor: pointer;
-
-}
-
-#socialIcon:hover{
-    color: var(--black);
-    transition: var(--trans);
-}
-
-.fab{
-    color: red;
-    padding-left: 0px;
-}
-
-.fa-brands{
-    color: blue;
-}
-
-.fa-solid{
-    color: var(--goldish);
-    float: right;
-    
-}
-
-.fa-brands.fa-square-whatsapp{
-    color: green;
-    float: right;
-    font-size: 5px;
-}
-
-#social_icon:hover{
-    color: var(--black);
-    transition: var(--trans);
-}
-
-.number{
-    cursor: pointer;
-    margin-top: 15px;
-    margin-right: 15px;
-    float: right;
-    color: var(--black);
-}
-
-
-.mail{
-    cursor: pointer;
-    margin-top: 15px;
-    padding-right: 50px;
-    float: right;
-    color: var(--black);
-}
 
   /* Logo */
 .logo{
@@ -184,7 +136,9 @@ nav ul li a{
   }
   
   .button:hover {
-    background-color: var(--hover-black); /* Darker maroon color on hover */
+    /*background-color: var(--hover-black); /* Darker maroon color on hover */
+    color: var(--black);
+    transition: var(--trans);
   }
   
   .button:focus,
@@ -502,6 +456,71 @@ footer {
     width: 100%;
     z-index: 0;
 }
+
+ /* social media icons */
+ #social_icon{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+#socialIcon{
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+#socialIcon:hover{
+    color: var(--black);
+    transition: var(--trans);
+}
+
+.fab{
+    color: red;
+    padding-left: 0px;
+}
+
+.fa-brands{
+    color: blue;
+}
+
+.fa-solid{
+    color: var(--goldish);
+    float: right;
+    
+}
+
+.fa-brands.fa-square-whatsapp{
+    color: green;
+    float: right;
+    font-size: 5px;
+}
+
+#social_icon:hover{
+    color: var(--black);
+    transition: var(--trans);
+}
+
+.number{
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    color: var(--black);
+}
+
+
+.mail{
+    cursor: pointer;
+    margin-top: 15px;
+    padding-right: 50px;
+    float: right;
+    color: var(--black);
+}
+
+
 
   /* Responsive Design */
 @media (max-width: 655px) {
