@@ -1,3 +1,4 @@
+/*Pre defined CSS Structure*/
 *{
     margin: 0px;
     padding: 0px;
@@ -20,7 +21,7 @@
 body{
     background-color: var(--goldish);
 }
-
+/*Header section*/
 header{
     height: 50px;
     width: 100%;
@@ -60,7 +61,7 @@ header{
     }
   }
   
-  
+  /* social media icons */
 #social_icon{
     font-size: 30px;
     margin: 10px;
@@ -122,6 +123,8 @@ header{
     float: right;
     color: var(--black);
 }
+
+  /* Logo */
 .logo{
     width: 50px;
     height: 50px;
@@ -130,6 +133,7 @@ header{
     border-radius: 10px;
 }
 
+  /* Buttons and navbar */
 nav{
     margin-top: 40px;
     position: relative;
@@ -189,6 +193,8 @@ nav ul li a{
     box-shadow: 0 0 10px var(--glow-black); /* Mild glow effect */
   }
 
+
+    /* Home Section */
 .container2{
     background-color: var(--goldish);
     /*background-image: url(../images/home\ pic.jpg);*/
@@ -228,7 +234,7 @@ nav ul li a{
     
 }
 
-
+  /* Service section */
 .container3{
     background-color: var(--maroon);
     padding: 10px;
@@ -296,7 +302,7 @@ nav ul li a{
     text-align: center;
 }
 
-
+  /* Members section */
 .container{
     background-color: var(--brown1);
     padding: 10px;
@@ -306,7 +312,6 @@ nav ul li a{
     justify-content: center;
     z-index: 99;
 }
-
 
 .members{
     background-color: var(--cream);
@@ -395,6 +400,7 @@ nav ul li a{
     width: 300px;
 }
 
+  /* About Us */
 .about_us{
     background-color: var(--brown);
     height: auto;
@@ -432,6 +438,8 @@ nav ul li a{
     font-size: 30px;
     font-weight: bold;
 }
+
+  /* Contact Us */
 .contact-form {
     width: 100%;
     max-width: 800px; /* Set a maximum width if needed */
@@ -495,7 +503,7 @@ footer {
     z-index: 0;
 }
 
-
+  /* Responsive Design */
 @media (max-width: 655px) {
     .mail{
         display: none;
@@ -599,6 +607,7 @@ button:hover {
     background-color: #45a049;
 }
 
+
 @media (max-width:600px) {
     .image-container{
         display: none;
@@ -659,9 +668,7 @@ button:hover {
     .fab{
         color: red;
         padding-left: 0px;
-    }
-
-    
+    } 
 
 }
 
