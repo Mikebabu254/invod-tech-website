@@ -31,6 +31,22 @@ html::-webkit-scrollbar-thumb{
     background: var(--cream);
 }
 
+/*------------------------ Menu -------------------------------------*/
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+/*-------------------------------------------------*/
+
+
 
 body{
     background-color: var(--goldish);
@@ -523,6 +539,23 @@ footer {
 
 
   /* Responsive Design */
+
+
+  /*  Menu icon responsive design */
+
+  @media screen and (max-width: 768px) {
+    nav#navBar {
+        display: none; /* Hide desktop menu */
+    }
+    nav.mobile-menu {
+        display: block; /* Show mobile menu */
+        background-color: #333;
+    }
+}
+  /* Responsive Menu end*/
+
+
+
 @media (max-width: 655px) {
     .mail{
         display: none;
