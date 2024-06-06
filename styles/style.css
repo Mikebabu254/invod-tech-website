@@ -65,16 +65,13 @@ header{
 
 #animated-text {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 3vw !important;
     white-space: nowrap; /* Prevents the text from wrapping */
     position: relative;
     animation: textAnimation 10s linear infinite;
   }
-  
-  #animated-text {
-    font-size: 2rem;
-    animation: textAnimation 5s infinite;
-  }
+
+
   
   @keyframes textAnimation {
     0% {
@@ -540,18 +537,6 @@ footer {
 
   /* Responsive Design */
 
-
-  /*  Menu icon responsive design */
-
-  @media screen and (max-width: 768px) {
-    nav#navBar {
-        display: none; /* Hide desktop menu */
-    }
-    nav.mobile-menu {
-        display: block; /* Show mobile menu */
-        background-color: #333;
-    }
-}
   /* Responsive Menu end*/
 
 
