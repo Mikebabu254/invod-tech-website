@@ -31,22 +31,6 @@ html::-webkit-scrollbar-thumb{
     background: var(--cream);
 }
 
-/*------------------------ Menu -------------------------------------*/
-#menu{
-    position: fixed;
-    top:2rem; right:2rem;
-    background: #333;
-    color: #fff;
-    cursor: pointer;
-    font-size: 2.5rem;
-    padding: 1rem 1.5rem;
-    z-index: 1000;
-    display: none;
-}
-
-/*-------------------------------------------------*/
-
-
 
 body{
     background-color: var(--goldish);
@@ -164,6 +148,20 @@ nav ul li a{
     box-shadow: 0 0 15px var(--glow-black); /* Mild glow effect */
   }
 
+  /*------------------------ Menu -------------------------------------*/
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+/*-------------------------------------------------*/
 
     /* Home Section */
 .container2{
@@ -540,177 +538,137 @@ footer {
 
 
   /* Responsive Design */
-
-  /* Responsive Menu end*/
-
-
-
-@media (max-width: 655px) {
-    .mail{
-        display: none;
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 14px;
+        padding: 10px;
     }
 
-    .left{
-        backdrop-filter: blur(4px);
-        width: 650px;
-        height: 500px;
+    .container2_head {
+        font-size: 40px;
+        width: 100%;
     }
 
-    .container2_head{
-        width: 650px;
+    .container2_txt, .left {
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .button {
+        padding: 8px 10px;
+    }
+
+    .services, .members {
+        width: 100%;
         height: auto;
+        margin: 10px 0;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .image-container, .form-container {
+        padding: 10px;
+    }
+}
+
+/* Medium devices (tablets, 600px to 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    header {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container2_head {
+        font-size: 60px;
+        width: 100%;
+    }
+
+    .container2_txt, .left {
+        width: 100%;
         padding: 20px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 20px 0;
+    }
+
+    .button {
+        padding: 10px 15px;
+    }
+
+    .services, .members {
+        width: 48%;
+        height: auto;
+        margin: 10px 1%;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .image-container, .form-container {
+        padding: 15px;
+    }
+}
+
+/* Large devices (desktops, 900px and up) */
+@media only screen and (min-width: 901px) {
+    header {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .container2_head {
         font-size: 80px;
-        font-weight: bold;
-        text-align: left;
-        color: var(--maroon);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 700px;
     }
-    
-    .container2_txt{
-        margin-top: 0px;
+
+    .container2_txt, .left {
+        width: 700px;
         padding: 20px;
-        width: 650px;
-        height: auto;
-        text-align: left;
-        font-size: 20px;
-        color: var(--black);
-        
     }
 
-    .number{
-        display: none;
-    }
-
-    .container{
-        
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-}
-.contact-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns layout */
-    gap: 20px; /* Gap between columns */
-    align-items: center;
-    height: 100vh;
-}
-
-.image-container {
-    padding: 20px;
-}
-
-.image-container img {
-    max-height: 100%;
-    width: auto;
-    border-radius: 8px;
-}
-
-.form-container {
-    padding: 20px;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-
-@media (max-width:600px) {
-    .image-container{
-        display: none;
-    }
-    .form-container {
-        width: 100%; /* Set both containers to 100% width on smaller screens */
-        padding: 10px; /* Adjust padding on smaller screens */
-    }
-
-    form {
-        max-width: 1000px; /* Set the form to full width on smaller screens */
-    }
-    .mail{
-        display: none;
-    }
-
-    .left{
-        backdrop-filter: blur(4px);
-        width: auto;
-        height: 500px;
-
-    }
-
-    .container2_head{
-        width: auto;
-        height: auto;
-        padding: 20px;
-        font-size: 50px;
-        font-weight: bold;
-        text-align: left;
-        color: var(--maroon);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    .container2_txt{
-        margin-top: 0px;
-        padding: 20px;
-        width: auto;
-        height: auto;
-        text-align: left;
-        font-size: 20px;
-        color: var(--black);
-        
-    }
-
-    .number{
-        display: none;
-    }
-
-    header{
+    nav ul {
         display: flex;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-        
+        text-align: right;
     }
 
-    .fab{
-        color: red;
-        padding-left: 0px;
-    } 
+    nav ul li {
+        margin: -65px 25px 0px 0px;
+    }
 
+    .button {
+        padding: 10px 15px;
+    }
+
+    .services, .members {
+        width: 300px;
+        height: 400px;
+    }
+
+    .contact-form {
+        flex-direction: row;
+    }
+
+    .image-container, .form-container {
+        padding: 20px;
+    }
 }
-
 
