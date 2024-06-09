@@ -538,10 +538,58 @@ footer {
 
   /* Responsive Design */
 /* Small devices (phones, 600px and down) */
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+    header {
+        font-size: 10px;
+        padding: 8px;
+    }
+    #menu{
+        display: block !important;
+    }
+    .container2_head {
+        font-size: 27px;
+        width: 100%;
+    }
+
+    .container2_txt, .left {
+        width: 100%;
+        padding: 8px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    .button {
+        padding: 4px 15px;
+    }
+
+    .services, .members {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .image-container, .form-container {
+        padding: 8px;
+    }
+}
 @media only screen and (max-width: 600px) {
     header {
         font-size: 14px;
         padding: 10px;
+    }
+    #menu{
+        display: block !important;
     }
 
     .container2_head {
@@ -583,10 +631,13 @@ footer {
 }
 
 /* Medium devices (tablets, 600px to 900px) */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
+@media only screen and (min-width: 401px) and (max-width: 750px) {
     header {
         font-size: 16px;
         padding: 10px;
+    }
+    #menu{
+        display: block !important;
     }
 
     .container2_head {
@@ -600,7 +651,7 @@ footer {
     }
 
     nav ul {
-        display: block;
+        display: inline-block;
         text-align: center;
     }
 
@@ -628,10 +679,13 @@ footer {
 }
 
 /* Large devices (desktops, 900px and up) */
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 750px) {
     header {
         font-size: 18px;
         padding: 15px;
+    }
+    #menu{
+        display: block !important;
     }
 
     .container2_head {
