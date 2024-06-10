@@ -5,7 +5,7 @@ window.onscroll = function(){
         navBar.style.marginTop = "-50px";
         navBar.style.position = "fixed";
     }else {
-        navBar.style.marginTop = "10px";
+        navBar.style.marginTop = "5px";
         navBar.style.position = "absolute";
     }
 
