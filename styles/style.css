@@ -46,7 +46,7 @@ body {
 }
 /*-------------------------------------------------------------------------------------------------------------*/
 /*Header section css starts*/
-nav {
+.navbar {
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -59,7 +59,7 @@ nav {
   padding: 5px;
 }
 
- nav .logo {
+.logo {
     height: 0.73cm;
     width: 0.69cm;
     padding: 6px;
@@ -69,36 +69,36 @@ nav {
     transition: transform 0.01s ease;
   }
 
- nav .logo:hover {
+ .logo:hover {
   transform: scale(1.1);
   /*background-color: var(--cream);*/
   transition: var(--trans);
 }
 
- nav .logo:focus,
- nav .logo:active {
+  .logo:focus,
+ .logo:active {
   outline-color: #000000;
   box-shadow: 0 0 15px var(--glow-black);
 }
 
 /* Buttons and navbar */
-nav ul {
+ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-nav li {
+ li {
   display: inline;
 }
 
-nav li {
+ li {
   display: inline-block;
   margin: 0 10px;
   margin-left: 10px;
 }
-nav a {
+ a {
   text-decoration: none;
   color: #fff;
   font-size: 15px;
@@ -108,7 +108,7 @@ nav a {
 }
 
 nav li:not(:last-child) {
-  margin-right: 17px; /* Adjust spacing between buttons */
+  margin-right: 13px; /* Adjust spacing between buttons */
 }
 nav a:hover {
   background-color: maroon;
