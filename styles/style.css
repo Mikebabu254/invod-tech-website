@@ -59,7 +59,7 @@ nav {
   padding: 10px;
 }
 
-.logo {
+ nav .logo {
     height: 0.73cm;
     width: 0.69cm;
     padding: 6px;
@@ -69,14 +69,14 @@ nav {
     transition: transform 0.01s ease;
   }
 
-.logo:hover {
+ nav .logo:hover {
   transform: scale(1.1);
   /*background-color: var(--cream);*/
   transition: var(--trans);
 }
 
-.logo:focus,
-.logo:active {
+ nav .logo:focus,
+ nav .logo:active {
   outline-color: #000000;
   box-shadow: 0 0 15px var(--glow-black);
 }
